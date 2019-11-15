@@ -5,7 +5,6 @@
 
 # In[1]:
 
-
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -24,40 +23,28 @@ from sklearn import metrics
 
 # In[2]:
 
-
 train_data = pd.read_csv('train_2v.csv')
 test_data = pd.read_csv('test_2v.csv')
 
-
 # In[3]:
-
 
 test_data.head()
 
-
 # In[4]:
-
 
 train_data.head()
 
-
 # In[5]:
-
 
 print("Test Data Shape {}" .format(test_data.shape))
 
-
 # In[6]:
-
 
 print("Training Data Shape {}" .format(train_data.shape))
 
-
 # In[7]:
 
-
 train_data.describe()
-
 
 # In[8]:
 
